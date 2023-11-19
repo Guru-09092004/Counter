@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Javascript-course</title>
+    <style>
+      *{
+    font-size: 30px;
+    font-family: Poppins;
+    text-align: center;
+}
+
+.btns button{
+    padding: auto;
+    margin-left: 10px;
+    background-color: thistle;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 100px;
+    transition: 1s;
+}
+.classbtn{
+    position: relative;
+    left: 20%;
+    display: flex;
+    height: 300px;
+    width: 600px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.classtext{
+    padding: 30px;
+}
+    </style>
+  </head>
+  <body>
+    <label id="text">Counter</label><br />
+    <div class="classtext"><label id="number">0</label><br /></div>
+    <div class="btns">
+      <button type="submit" id="dbtn">Decrease</button>
+      <button type="submit" id="rbtn">Reset</button>
+      <button type="submit" id="ibtn">Increase</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
